@@ -2,7 +2,6 @@ import wmi
 import tkinter as tk
 from tkinter import messagebox
 
-
 def DhcpIpChanger():
     nic_configs = wmi.WMI().Win32_NetworkAdapterConfiguration(IPEnabled=True)
     # First network adapto  r
