@@ -100,7 +100,7 @@ entrySubnet.insert(0, "255.255.255.0")
 tk.Label(text="\nGateway").pack()
 entryGateway = tk.Entry(top)
 entryGateway.pack()
-entryGateway.insert(0, "192.168.1.1")
+entryGateway.insert(0, "192.168.5.2")
 # dns entry
 tk.Label(text="\nDNS").pack()
 entryDNS = tk.Entry(top)
