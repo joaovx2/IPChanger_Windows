@@ -1,1 +1,6 @@
-Windows IP Changer, written in Python.
+This Python code provides a GUI using the tkinter library to change the IP configuration of a Windows machine. The code uses the wmi library to interact with the Windows Management Instrumentation (WMI) service to enable or disable DHCP and set static IP, subnet mask, default gateway, and DNS server values. The GUI includes radio buttons to select DHCP or static IP mode and text boxes to input the IP-related values.
+The code also includes a button to execute the IP configuration changes.
+
+To run the code, Python 3 and the required libraries must be installed on the Windows machine. 
+The code can be executed in a Python IDE or by running the script in a command prompt window. The code requires administrative privileges to change the IP configuration of the machine. 
+The user should review and update the IP-related values in the code to match their network configuration. In addition, the user should review the error codes in the code and the reference link to troubleshoot any configuration issues that may arise.
